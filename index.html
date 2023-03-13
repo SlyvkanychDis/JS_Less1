@@ -8,6 +8,35 @@
     <script src="index.js"></script>
 </head>
 <body>
-    
+    <script>
+        function getModulo() {
+            const a = prompt('number1 ');
+
+            if (a === null) {
+                alert('нічого не ввели');
+
+                return ;
+            }
+            const n1 = parseFloat (a);
+            if (isNaN(n1)){
+                alert ('ви ввели не число');
+                return;
+            }
+
+            const b = prompt('number1 ');
+            if (b === null) {
+                alert('нічого не ввели');
+
+                return ;
+            }
+            const n2 = parseFloat (b);
+            if (isNaN(n2)){
+                alert ('ви ввели не число');
+                return;
+            }
+            alert('Результат : '+ n1 + ' поділити ' + n2 + ' остаток дорівнює '+ mod(n1,n2));
+        }
+        console.log(getModulo());
+    </script>
 </body>
 </html>

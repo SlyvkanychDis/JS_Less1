@@ -25,10 +25,15 @@ isRound( 30 );
 isRound( 111 );
 isRound( 123 );*/
 
-function isRound( n ) {
+/*function isRound( n ) {
     return n % 10 ===0;
 }
 console.log(10, isRound( 10 ) );
 console.log(15, isRound( 15 ) );
 console.log(20, isRound( 20 ) );
-console.log(44, isRound( 44 ) );
+console.log(44, isRound( 44 ) );*/
+
+function mod(a, b) {;
+        return a % b;
+
+}
